@@ -55,7 +55,7 @@ You can give the client several `--host` addresses. It pings all of them and use
 
 ## Day to day
 
-- **Turn it on or off:** Ctrl+Alt+Cmd+Z on the laptop. A note flashes "on" or "off".
+- **Turn it on or off:** Ctrl+Opt+Cmd+Z on the laptop. A note flashes "on" or "off".
 - **Make it zoom more or less per pinch:** on the laptop, open `~/.hammerspoon/parsec-pinch-config.lua` in any text editor and change `scale = 1.0`. 1.5 is more, 0.7 is less. Then click the Hammerspoon menu bar icon and choose Reload Config.
 - **Use it with another remote desktop app:** add that app's id to `apps` in the same file. Find an id with `osascript -e 'id of app "Splashtop Business"'` in Terminal.
 - **Check it is alive:** click the Hammerspoon menu bar icon, Console, type `parsecPinch.status()`. Healthy looks like `host=100.101.102.103 ... acks=[100.101.102.103 3s ago]`.
